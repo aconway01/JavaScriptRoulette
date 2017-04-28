@@ -122,7 +122,7 @@ function get_and_report_winnings(num,x,num_bet,choice_input1,choice_input2,choic
     return pot;
 }
 
-function try() {
+function immed() {
 
     var num = document.getElementById("betnumber").value;
 
@@ -237,18 +237,7 @@ function main() {
     document.getElementById("try").style.visibility = "visible";
     document.getElementById("try").style.display = "initial";
 
-} 
-
-/*
-# def main():
-    # Happens = shizz
-    # Happens.function()
-# main()
-
-# Q = Why did the chicken cross the road?
-# A = To finish his program!
-*/
-
+}
 </script>
 
 <style>
@@ -345,7 +334,7 @@ p {font-size: 14pt; font-style: Georgia; font-weight: bold; }
 <p id="redBlackOutcome"></p>
 <p id="highLowOutcome"></p>
 
-<input type="button" value="Try!" id="try" onclick="try()">
+<input type="button" value="Try!" id="try" onclick="immed()">
 
 <p id="pot_result"></p>
 
