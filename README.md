@@ -1,4 +1,4 @@
 # JavaScript_Roulette
 Simple roulette game simulation in Javascript
 
-http://aconway01.github.io/JavaScript_Roulette
+https://aconway01.github.io/JavaScript_Roulette/
